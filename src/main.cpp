@@ -1,8 +1,8 @@
-#include <iostream>
+#include <spdlog/spdlog.h>
 
 int main(int argc, char** argv)
 {
-    std::cout << "hello, world" << std::endl;
+    SPDLOG_INFO("hello, world");
 
     return 0;
 }
